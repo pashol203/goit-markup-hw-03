@@ -388,6 +388,14 @@ img {
 .comanda-first{
   gap: 24px;
 }
+.block-portfolio{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+
+}
 .comanda-item-first{
   width: calc((100% – 72px)/4);
   border-radius: 0px 0px 4px 4px;
@@ -432,6 +440,7 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
   }
+  
   /*===============FOOTER=================*/
   .closure{
     padding-top: 100px;
